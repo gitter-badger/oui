@@ -62,7 +62,7 @@
         display: block;
       }
 
-      > .#{$namespace}disclose__link > .#{$namespace}disclose__symbol {
+      & > .#{$namespace}disclose__link > .#{$namespace}disclose__symbol {
         @include transform(rotate(90deg));
       }
     }
