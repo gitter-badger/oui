@@ -218,6 +218,9 @@
 //[/c]
 
 %kill-last-child-margin {
+  // Lint disabled due to bug in gonzales-pe.
+  // https://github.com/tonyganch/gonzales-pe/issues/130
+  // scss-lint:disable UnnecessaryParentReference
   & > *:last-child,
   & > *:last-child > *:last-child,
   & > *:last-child > *:last-child > *:last-child {
