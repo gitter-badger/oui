@@ -27,7 +27,7 @@
 }
 
 @mixin animation-iteration-count ($values...) {
-// infinite | <number>
+  // infinite | <number>
   @include prefixer(animation-iteration-count, $values, webkit moz spec);
 }
 
