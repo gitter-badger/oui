@@ -4,12 +4,13 @@
 /// properties.
 ///
 /// Example:
+///
 /// ```scss
 /// .element {
 ///   @include prefixer(border-radius, 10px, webkit ms spec);
 /// }
 /// ```
-/// @group Pollyfills
+/// @group Pollyfills & Mixins
 ////
 
 @charset 'UTF-8';

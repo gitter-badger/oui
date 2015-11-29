@@ -1,5 +1,5 @@
 ////
-/// Transition Mixins
+/// Transitions
 /// @description Shorthand mixin for transforms. Supports multiple
 /// parentheses-deliminated values for each variable.
 ///
@@ -8,7 +8,7 @@
 /// //         @include transition (opacity 1s ease-in 2s, width 2s ease-out);
 /// //         @include transition-property (transform, opacity);
 /// ```
-/// @group Pollyfills
+/// @group Pollyfills & Mixins
 ////
 
 @mixin transition($properties...) {
