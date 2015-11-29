@@ -1,7 +1,19 @@
+////
+/// Prefixer
+/// @description A mixin for generating vendor prefixes on non-standardized
+/// properties.
+///
+/// Example:
+/// ```scss
+/// .element {
+///   @include prefixer(border-radius, 10px, webkit ms spec);
+/// }
+/// ```
+/// @group Pollyfills
+////
+
 @charset 'UTF-8';
 
-// A mixin for generating vendor prefixes on non-standardized properties.
-//
 // @param {String} $property
 //   Property to prefix
 //

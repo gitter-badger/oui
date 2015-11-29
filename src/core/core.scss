@@ -9,7 +9,9 @@ $include-fonts:(
   italics: true
 );
 
-/// Compass polyfills
+/// Polyfills
+/// @description Import a list of polyfills that remove dependencies on
+/// Compass.
 @import 'core-polyfills';
 
 /// Core functions and mixins

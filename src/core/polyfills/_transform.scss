@@ -1,3 +1,9 @@
+////
+/// Transform Mixins
+/// @description Mixins for transform that handle vendor prefixes.
+/// @group Pollyfills
+////
+
 @mixin transform($property: none) {
   // none | <transform-function>
   @include prefixer(transform, $property, webkit moz ms o spec);
