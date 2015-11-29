@@ -1,14 +1,18 @@
-// ## Spacer
-// Using this function requires that the value passed be a multiple of .5
-// This encourages greater spacing consistentcy. The following example
-// will output 25px. It will test to see if value is multiple of .5. If not
-// it will provide a warning.
+////
+/// Functions
+/// @description Collection of OUI helper functions.
+/// @group Elements
+////
 
-// Usage:
-
-// [c]
-//     padding: spacer(2.5);
-// [/c]
+/// Spacer
+/// @description Using this function requires that the value passed be a
+/// multiple of `.5` This encourages greater spacing consistentcy. The
+/// following example will output `25px`. It will test to see if value is
+/// multiple of `.5`. If not it will provide a warning.
+/// @example[scss]
+///   .push--bottom {
+///     padding: spacer(2.5);
+///   }
 
 @function spacer($value) {
   @if ($value * 2) % 1 != 0 {
