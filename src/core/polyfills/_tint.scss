@@ -1,7 +1,7 @@
 ////
 /// Tint
 /// @description Provide a `tint` mixin to replicate the Compass mixin.
-/// @group Pollyfills & Mixins
+/// @group Polyfills & Mixins
 ////
 @function tint($color, $percent) {
   @return mix(#FFF, $color, $percent);
