@@ -9,8 +9,9 @@
 
 $namespace                   : '';
 
-/// Colors
+/// Root Colors
 /// @description Default color for objects' borders etc.
+///
 /// **Important:** Do not use these values directly in your Sass files.
 /// Use the more specifically named variables below that use these root values.
 
@@ -98,9 +99,7 @@ $color: (
 
 );
 
-// Fonts
-
-/// Font Sizes
+/// Fonts
 /// @description These defaults can be overriden by custom variables.
 
 $font: (
@@ -258,7 +257,7 @@ $button: (
 /// ---
 
 // UI Elements
-/// Rounded corners.
+/// Rounded corners
 
 $border-radius: (
   base                       : 2px,
@@ -342,13 +341,14 @@ $spinner: (
 );
 
 /// Z-index Values
-/// This can be overriden by the application.
+/// @description This can be overriden by the application.
 
 $z-index: (
   poptip                     : 100
 );
 
 /// Spacing Unit
-/// Defines spacing for paddings and margins using `spacer` function.
+/// @description Defines spacing for paddings and margins using `spacer`
+/// function.
 
 $spacer-unit                 : 10px;
