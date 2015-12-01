@@ -10,7 +10,28 @@
 /// @example[html] For purposes of this documentation the following example has
 /// its width set to `auto`. Real world usage will always have widths.
 ///
+/// This is a normal dialog.
+///
 ///   <div class="dialog">
+///     <div class="dialog__header">
+///       <div class="dialog__title">Dialog Title</div>
+///     </div>
+///     <div class="dialog__body">
+///       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ab quaerat dolor autem pariatur iure nisi debitis, dolores possimus ut, optio magni ratione incidunt cumque, inventore alias? Fugit, iusto eum.</p>
+///     </div>
+///     <div class="dialog__footer button-row--right">
+///       <button class="button">Cancel</button>
+///       <button class="button button--brand">Done</button>
+///     </div>
+///     <div class="dialog__close">
+///       <svg class="lego-icon">
+///         <use xlink:href="#close"></use>
+///       </svg>
+///     </div>
+///   </div>
+/// @example[html] This is a narrow dialog.
+///
+///   <div class="dialog dialog--narrow">
 ///     <div class="dialog__header">
 ///       <div class="dialog__title">Dialog Title</div>
 ///     </div>
