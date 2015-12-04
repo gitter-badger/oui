@@ -36,9 +36,9 @@
 // Content that is applied as a pseudo-element and defined as an attribute on an empty element. This is useful for preventing an element's text from being copied to the clipboard.
 
 // <div class="example html">
-//     <span data-lego-pseudo-content="+"></span> Some text
+//     <span data-#{$namespace}pseudo-content="+"></span> Some text
 // </div>
 
-[data-lego-pseudo-content]::before {
-  content: attr(data-lego-pseudo-content);
+[data-#{$namespace}pseudo-content]::before {
+  content: attr(data-#{$namespace}pseudo-content);
 }

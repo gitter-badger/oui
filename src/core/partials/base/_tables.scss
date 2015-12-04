@@ -6,7 +6,7 @@
 // ### Basic Table
 
 // <div class="example html">
-//   <table class="lego-table">
+//   <table class="#{$namespace}table">
 //     <thead>
 //       <tr>
 //         <th>Experiment</th>
@@ -38,7 +38,7 @@
 // ### Table Walled
 
 // <div class="example html">
-//   <table class="lego-table lego-table--wall">
+//   <table class="#{$namespace}table #{$namespace}table--wall">
 //     <thead>
 //       <tr>
 //         <th>Experiment</th>
@@ -70,7 +70,7 @@
 // ### Table Rule
 
 // <div class="example html">
-//   <table class="lego-table lego-table--rule">
+//   <table class="#{$namespace}table #{$namespace}table--rule">
 //     <thead>
 //       <tr>
 //         <th>Experiment</th>
@@ -102,7 +102,7 @@
 // ### Table Rule with Active Row and Hover
 
 // <div class="example html">
-//   <table class="lego-table lego-table--rule lego-table--hover">
+//   <table class="#{$namespace}table #{$namespace}table--rule #{$namespace}table--hover">
 //     <thead>
 //       <tr>
 //         <th>Experiment</th>
@@ -116,7 +116,7 @@
 //         <td class="numerical">258</td>
 //         <td>Up</td>
 //       </tr>
-//       <tr class="lego-table-row--active">
+//       <tr class="#{$namespace}table-row--active">
 //         <td>Experiment name two that runs longer</td>
 //         <td class="numerical">19</td>
 //         <td>Down</td>

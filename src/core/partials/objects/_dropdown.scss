@@ -11,17 +11,17 @@
 
 // ### Dropdown Default
 // <div class="example html">
-//   <div class="lego-dropdown-group" v-dropdown>
-//     <button class="lego-button" data-toggle-dropdown>
-//       Dropdown <span class="lego-arrow-inline--down"></span>
+//   <div class="#{$namespace}dropdown-group" v-dropdown>
+//     <button class="#{$namespace}button" data-toggle-dropdown>
+//       Dropdown <span class="#{$namespace}arrow-inline--down"></span>
 //     </button>
-//     <ul class="lego-dropdown">
-//       <li class="lego-dropdown__item">
-//         <a href="#" class="lego-dropdown__block-link">Manage Collaborators</a>
-//         <a href="#" class="lego-dropdown__block-link">Manage This Thing</a>
+//     <ul class="#{$namespace}dropdown">
+//       <li class="#{$namespace}dropdown__item">
+//         <a href="#" class="#{$namespace}dropdown__block-link">Manage Collaborators</a>
+//         <a href="#" class="#{$namespace}dropdown__block-link">Manage This Thing</a>
 //       </li>
-//       <li class="lego-dropdown__item">
-//         <a href="#" class="lego-dropdown__block-link">Experiment Change History</a>
+//       <li class="#{$namespace}dropdown__item">
+//         <a href="#" class="#{$namespace}dropdown__block-link">Experiment Change History</a>
 //       </li>
 //     </ul>
 //   </div>
@@ -32,17 +32,17 @@
 
 // <div class="example html">
 //   <div style="text-align:right">
-//     <div class="lego-dropdown-group" v-dropdown>
-//       <button class="lego-button" data-toggle-dropdown>
-//         Dropdown <span class="lego-arrow-inline--down"></span>
+//     <div class="#{$namespace}dropdown-group" v-dropdown>
+//       <button class="#{$namespace}button" data-toggle-dropdown>
+//         Dropdown <span class="#{$namespace}arrow-inline--down"></span>
 //       </button>
-//       <ul class="lego-dropdown lego-dropdown--right">
-//         <li class="lego-dropdown__item">
-//           <a href="#" class="lego-dropdown__block-link">Manage Collaborators</a>
-//           <a href="#" class="lego-dropdown__block-link">Manage This Thing</a>
+//       <ul class="#{$namespace}dropdown #{$namespace}dropdown--right">
+//         <li class="#{$namespace}dropdown__item">
+//           <a href="#" class="#{$namespace}dropdown__block-link">Manage Collaborators</a>
+//           <a href="#" class="#{$namespace}dropdown__block-link">Manage This Thing</a>
 //         </li>
-//         <li class="lego-dropdown__item">
-//           <a href="#" class="lego-dropdown__block-link">Experiment Change History</a>
+//         <li class="#{$namespace}dropdown__item">
+//           <a href="#" class="#{$namespace}dropdown__block-link">Experiment Change History</a>
 //         </li>
 //       </ul>
 //     </div>
@@ -52,17 +52,17 @@
 // ### Dropdown with non-links
 
 // <div class="example html">
-//   <div class="lego-dropdown-group" v-dropdown>
-//     <button class="lego-button" data-toggle-dropdown>
-//       Dropdown <span class="lego-arrow-inline--down"></span>
+//   <div class="#{$namespace}dropdown-group" v-dropdown>
+//     <button class="#{$namespace}button" data-toggle-dropdown>
+//       Dropdown <span class="#{$namespace}arrow-inline--down"></span>
 //     </button>
-//     <ul class="lego-dropdown">
-//       <li class="lego-dropdown__item">
+//     <ul class="#{$namespace}dropdown">
+//       <li class="#{$namespace}dropdown__item">
 //         <a href="#">Manage Collaborators</a> and some text
 //       </li>
-//       <li class="lego-dropdown__item">
-//         <a href="#" class="lego-dropdown__block-link">Experiment Change History</a>
-//         <a href="#" class="lego-dropdown__block-link">Another Link</a>
+//       <li class="#{$namespace}dropdown__item">
+//         <a href="#" class="#{$namespace}dropdown__block-link">Experiment Change History</a>
+//         <a href="#" class="#{$namespace}dropdown__block-link">Another Link</a>
 //       </li>
 //     </ul>
 //   </div>
@@ -71,18 +71,18 @@
 // ### Dropdown with Filter
 
 // <div class="example html">
-//   <div class="lego-dropdown-group" v-dropdown>
-//     <button class="lego-button" data-toggle-dropdown>
-//       Dropdown <span class="lego-arrow-inline--down"></span>
+//   <div class="#{$namespace}dropdown-group" v-dropdown>
+//     <button class="#{$namespace}button" data-toggle-dropdown>
+//       Dropdown <span class="#{$namespace}arrow-inline--down"></span>
 //     </button>
-//     <ul class="lego-dropdown">
-//       <li class="lego-dropdown__item">
+//     <ul class="#{$namespace}dropdown">
+//       <li class="#{$namespace}dropdown__item">
 //         <form class="soft-half--ends">
-//             <input type="text" class="lego-text-input lego-text-input--search">
+//             <input type="text" class="#{$namespace}text-input #{$namespace}text-input--search">
 //         </form>
 //       </li>
-//       <li class="lego-dropdown__item">
-//         <a href="#" class="lego-dropdown__block-link">Experiment Change History</a>
+//       <li class="#{$namespace}dropdown__item">
+//         <a href="#" class="#{$namespace}dropdown__block-link">Experiment Change History</a>
 //       </li>
 //     </ul>
 //   </div>
@@ -91,12 +91,12 @@
 // ### Dropdown inside Input
 
 // <div class="example html">
-//   <div class="lego-dropdown-group" v-dropdown>
-//     <input type="text" class="lego-text-input" data-toggle-dropdown />
-//     <ul class="lego-dropdown">
-//       <li class="lego-dropdown__item">
-//         <a href="#" class="lego-dropdown__block-link">Item One</a>
-//         <a href="#" class="lego-dropdown__block-link">Item Two</a>
+//   <div class="#{$namespace}dropdown-group" v-dropdown>
+//     <input type="text" class="#{$namespace}text-input" data-toggle-dropdown />
+//     <ul class="#{$namespace}dropdown">
+//       <li class="#{$namespace}dropdown__item">
+//         <a href="#" class="#{$namespace}dropdown__block-link">Item One</a>
+//         <a href="#" class="#{$namespace}dropdown__block-link">Item Two</a>
 //       </li>
 //     </ul>
 //   </div>

@@ -4,15 +4,15 @@
 // ---
 
 // <div class="example html">
-//   <hr class="lego-rule">
+//   <hr class="#{$namespace}rule">
 // </div>
 
 // <div class="example html">
-//   <hr class="lego-rule lego-rule--dotted">
+//   <hr class="#{$namespace}rule #{$namespace}rule--dotted">
 // </div>
 
 // <div class="example html">
-//   <hr class="lego-rule lego-rule--dashed">
+//   <hr class="#{$namespace}rule #{$namespace}rule--dashed">
 // </div>
 
 // [---]

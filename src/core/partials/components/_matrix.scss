@@ -1,6 +1,6 @@
 // ---
 // title: Matrix
-// description: Creates rows of elements with one parent, extending `lego-grid`.
+// description: Creates rows of elements with one parent, extending `#{$namespace}grid`.
 // examples: `@include matrix;` to include your own margin/padding and list-item widths.
 //           `@include matrix(2, 4, 300px);` to include 2 columns, 4 spacing units, and responsive at 300px.
 // Usage:

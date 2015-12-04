@@ -4,21 +4,21 @@
 // ---
 
 // <div class="example html">
-//    <div class="lego-disclose__item" v-disclose>
-//      <a href="#" class="lego-disclose__link">
-//        <span class="lego-disclose__symbol"></span>
+//    <div class="#{$namespace}disclose__item" v-disclose>
+//      <a href="#" class="#{$namespace}disclose__link">
+//        <span class="#{$namespace}disclose__symbol"></span>
 //        Title of Disclosure
 //      </a>
-//      <div class="lego-disclose__content">
+//      <div class="#{$namespace}disclose__content">
 //        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi id voluptas vitae eius expedita alias iste deserunt reiciendis earum voluptatibus quae, numquam dolorum perspiciatis accusantium corporis, beatae maxime quasi. Tempora.
 //      </div>
 //    </div>
-//    <div class="lego-disclose__item" v-disclose>
-//      <a href="#" class="lego-disclose__link link--dark">
-//        <span class="lego-disclose__symbol"></span>
+//    <div class="#{$namespace}disclose__item" v-disclose>
+//      <a href="#" class="#{$namespace}disclose__link link--dark">
+//        <span class="#{$namespace}disclose__symbol"></span>
 //        Title of Disclosure with Dark Link Text
 //      </a>
-//      <div class="lego-disclose__content">
+//      <div class="#{$namespace}disclose__content">
 //        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi id voluptas vitae eius expedita alias iste deserunt reiciendis earum voluptatibus quae, numquam dolorum perspiciatis accusantium corporis, beatae maxime quasi. Tempora.
 //      </div>
 //    </div>

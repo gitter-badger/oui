@@ -7,11 +7,11 @@
 // For general notifications using the default color.
 
 // <div class="example html">
-//   <div class="lego-attention text--center push-double--bottom">
+//   <div class="#{$namespace}attention text--center push-double--bottom">
 //      This is a note.
 //   </div>
 //
-//   <div class="lego-attention">
+//   <div class="#{$namespace}attention">
 //     <p>This is a longer note adipisicing elit. Recusandae ipsum tenetur est quisquam beatae aliquam facere molestiae reiciendis aperiam molestias consequuntur voluptatum corporis voluptas laudantium dolor, nam quam laboriosam harum.</p>
 //   </div>
 // </div>
@@ -20,15 +20,15 @@
 // For general notifications using the default color.
 
 // <div class="example html">
-//   <div class="lego-attention text--center push-double--bottom">
-//       <svg class="lego-icon lego-attention__close">
+//   <div class="#{$namespace}attention text--center push-double--bottom">
+//       <svg class="#{$namespace}icon #{$namespace}attention__close">
 //         <use xlink:href="#close"></use>
 //       </svg>
 //       This is a note.
 //   </div>
 //
-//   <div class="lego-attention">
-//       <svg class="lego-icon lego-attention__close">
+//   <div class="#{$namespace}attention">
+//       <svg class="#{$namespace}icon #{$namespace}attention__close">
 //         <use xlink:href="#close"></use>
 //       </svg>
 //     <p>This is a longer note adipisicing elit. Recusandae ipsum tenetur est quisquam beatae aliquam facere molestiae reiciendis aperiam molestias consequuntur voluptatum corporis voluptas laudantium dolor, nam quam laboriosam harum.</p>
@@ -39,11 +39,11 @@
 // For general notifications using the brand color.
 
 // <div class="example html">
-//   <div class="lego-attention lego-attention--brand text--center push-double--bottom">
+//   <div class="#{$namespace}attention #{$namespace}attention--brand text--center push-double--bottom">
 //      This is a note.
 //   </div>
 //
-//   <div class="lego-attention lego-attention--brand">
+//   <div class="#{$namespace}attention #{$namespace}attention--brand">
 //     <p>This is a longer note adipisicing elit. Recusandae ipsum tenetur est quisquam beatae aliquam facere molestiae reiciendis aperiam molestias consequuntur voluptatum corporis voluptas laudantium dolor, nam quam laboriosam harum.</p>
 //   </div>
 // </div>
@@ -52,11 +52,11 @@
 // For alterting a user to information that's important.
 
 // <div class="example html">
-//   <div class="lego-attention lego-attention--warning text--center push-double--bottom">
+//   <div class="#{$namespace}attention #{$namespace}attention--warning text--center push-double--bottom">
 //      This is a note.
 //   </div>
 //
-//   <div class="lego-attention lego-attention--warning">
+//   <div class="#{$namespace}attention #{$namespace}attention--warning">
 //     <p>This is a longer note adipisicing elit. Recusandae ipsum tenetur est quisquam beatae aliquam facere molestiae reiciendis aperiam molestias consequuntur voluptatum corporis voluptas laudantium dolor, nam quam laboriosam harum.</p>
 //   </div>
 // </div>
@@ -65,11 +65,11 @@
 // For alterting a user to information that's good.
 
 // <div class="example html">
-//   <div class="lego-attention lego-attention--good-news text--center push-double--bottom">
+//   <div class="#{$namespace}attention #{$namespace}attention--good-news text--center push-double--bottom">
 //      This is a note.
 //   </div>
 //
-//   <div class="lego-attention lego-attention--good-news">
+//   <div class="#{$namespace}attention #{$namespace}attention--good-news">
 //     <p>This is a longer note adipisicing elit. Recusandae ipsum tenetur est quisquam beatae aliquam facere molestiae reiciendis aperiam molestias consequuntur voluptatum corporis voluptas laudantium dolor, nam quam laboriosam harum.</p>
 //   </div>
 // </div>
@@ -78,11 +78,11 @@
 // For bad-news states or bad news.
 
 // <div class="example html">
-//   <div class="lego-attention lego-attention--bad-news text--center push-double--bottom">
+//   <div class="#{$namespace}attention #{$namespace}attention--bad-news text--center push-double--bottom">
 //      This is a note.
 //   </div>
 //
-//   <div class="lego-attention lego-attention--bad-news">
+//   <div class="#{$namespace}attention #{$namespace}attention--bad-news">
 //     <p>This is a longer note adipisicing elit. Recusandae ipsum tenetur est quisquam beatae aliquam facere molestiae reiciendis aperiam molestias consequuntur voluptatum corporis voluptas laudantium dolor, nam quam laboriosam harum.</p>
 //   </div>
 // </div>

@@ -19,35 +19,35 @@
 // ## Activity Icons
 
 // <div class="example html">
-//     <ul class="lego-block-list-group">
+//     <ul class="#{$namespace}block-list-group">
 //       <li>
-//         <div class="lego-media">
-//           <span class="icon-status--active lego-media__img flush--top"></span>
-//           <div class="lego-media__body">
+//         <div class="#{$namespace}media">
+//           <span class="icon-status--active #{$namespace}media__img flush--top"></span>
+//           <div class="#{$namespace}media__body">
 //             <p>This is the active item.</p>
 //           </div>
 //         </div>
 //       </li>
 //       <li>
-//         <div class="lego-media">
-//           <span class="icon-status--good-news lego-media__img flush--top"></span>
-//           <div class="lego-media__body">
+//         <div class="#{$namespace}media">
+//           <span class="icon-status--good-news #{$namespace}media__img flush--top"></span>
+//           <div class="#{$namespace}media__body">
 //             <p>This is good.</p>
 //           </div>
 //         </div>
 //       </li>
 //       <li>
-//         <div class="lego-media">
-//           <span class="icon-status--bad-news lego-media__img flush--top"></span>
-//           <div class="lego-media__body">
+//         <div class="#{$namespace}media">
+//           <span class="icon-status--bad-news #{$namespace}media__img flush--top"></span>
+//           <div class="#{$namespace}media__body">
 //             <p>This is probably not good.</p>
 //           </div>
 //         </div>
 //       </li>
 //       <li>
-//         <div class="lego-media">
-//           <span class="icon-status--empty lego-media__img flush--top"></span>
-//           <div class="lego-media__body">
+//         <div class="#{$namespace}media">
+//           <span class="icon-status--empty #{$namespace}media__img flush--top"></span>
+//           <div class="#{$namespace}media__body">
 //             <p>This is not active but holds the space if needed.</p>
 //           </div>
 //         </div>

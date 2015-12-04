@@ -6,38 +6,38 @@
 // ### Button Group
 
 // <div class="example html">
-//   <div class="lego-button-group">
-//     <button class="lego-button">Button</button>
-//     <button class="lego-button">Button</button>
-//     <button class="lego-button">Button</button>
+//   <div class="#{$namespace}button-group">
+//     <button class="#{$namespace}button">Button</button>
+//     <button class="#{$namespace}button">Button</button>
+//     <button class="#{$namespace}button">Button</button>
 //   </div>
 // </div>
 
 // ### Button Group with Active
 
 // <div class="example html">
-//   <div class="lego-button-group">
-//     <button class="lego-button">Button</button>
-//     <button class="lego-button lego-button--brand">Button</button>
-//     <button class="lego-button">Button</button>
+//   <div class="#{$namespace}button-group">
+//     <button class="#{$namespace}button">Button</button>
+//     <button class="#{$namespace}button #{$namespace}button--brand">Button</button>
+//     <button class="#{$namespace}button">Button</button>
 //   </div>
 // </div>
 
 // ### Button Group with Text Input
 
 // <div class="example html">
-//   <div class="lego-button-group">
-//     <button class="lego-button">Select <span class="lego-arrow-inline--down"></span></button>
-//     <input type="text" class="lego-text-input">
+//   <div class="#{$namespace}button-group">
+//     <button class="#{$namespace}button">Select <span class="#{$namespace}arrow-inline--down"></span></button>
+//     <input type="text" class="#{$namespace}text-input">
 //   </div>
 // </div>
 
 // ### Button Group with Text Input
 
 // <div class="example html">
-//   <div class="lego-button-group">
-//     <input type="text" class="lego-text-input">
-//     <button class="lego-button">Button</button>
+//   <div class="#{$namespace}button-group">
+//     <input type="text" class="#{$namespace}text-input">
+//     <button class="#{$namespace}button">Button</button>
 //   </div>
 // </div>
 

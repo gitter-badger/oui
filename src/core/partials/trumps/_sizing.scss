@@ -7,14 +7,14 @@
 // ## Examples
 
 // <div class="example html">
-//     <div class="lego-grid">
-//       <div class="lego-grid__cell width--3-5">
+//     <div class="#{$namespace}grid">
+//       <div class="#{$namespace}grid__cell width--3-5">
 //         <div class="doc-placeholder">3/5</div>
 //       </div>
-//       <div class="lego-grid__cell width--1-5">
+//       <div class="#{$namespace}grid__cell width--1-5">
 //         <div class="doc-placeholder">1/5</div>
 //       </div>
-//       <div class="lego-grid__cell width--1-5">
+//       <div class="#{$namespace}grid__cell width--1-5">
 //         <div class="doc-placeholder">1/5</div>
 //       </div>
 //     </div>
