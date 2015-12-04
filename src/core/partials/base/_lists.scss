@@ -3,13 +3,13 @@
 /// @description OUI disables the default styling and provides classes to add
 /// bullets/numbers.
 /// @example[html]
-///   <ul class=".#{$namespace}list .#{$namespace}list--bullet">
+///   <ul class="#{$namespace}list #{$namespace}list--bullet">
 ///     <li>item one</li>
 ///     <li>item two</li>
 ///     <li>item three</li>
 ///   </ul>
 /// @example[html]
-///   <ul class=".#{$namespace}list .#{$namespace}list--numbered">
+///   <ul class="#{$namespace}list #{$namespace}list--numbered">
 ///     <li>item one</li>
 ///     <li>item two</li>
 ///     <li>item three</li>
