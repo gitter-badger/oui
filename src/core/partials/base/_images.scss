@@ -1,4 +1,8 @@
-// # Images
+////
+/// Images
+/// @description Collection of classes to help position and tweak images.
+/// @group Base
+////
 
 img {
   display: block;
@@ -13,60 +17,51 @@ a img {
   border: 0;
 }
 
-// ## Non Fluid
-// Non-fluid images if you specify `width` and/or `height` attributes.
-
-//[c]
-//     <img src="image.png" width="20" height="20">
-//[/c]
+/// Non Fluid
+/// @description Non-fluid images if you specify `width` and/or `height`
+/// attributes.
+/// @example[html]
+///   <img src="http://fillmurray.com/100/100" width="20" height="20">
 
 img[width],
 img[height] {
   max-width: none;
 }
 
-// ## Rounded images
-// Extend or add class to html.
-
-// <div class="example html">
-//     <img src="http://fillmurray.com/100/100" class="img--round">
-// </div>
+/// Rounded images
+/// @description Adds a border radius to an image.
+/// @example[html]
+///   <img src="http://fillmurray.com/100/100" class="img--round">
 
 %img--round,
 .img--round {
   border-radius: map-fetch($border-radius, base);
 }
 
-// ## Circle images
-// Extend or add class to html.
-
-// <div class="example html">
-//     <img src="http://fillmurray.com/100/100" class="img--circle">
-// </div>
+/// Circle images
+/// @description Make a square image circular.
+/// @example[html]
+///   <img src="http://fillmurray.com/100/100" class="img--circle">
 
 %img--circle,
 .img--circle {
   border-radius: 100%;
 }
 
-// ## Border images
-// Extend or add class to html.
-
-// <div class="example html">
-//     <img src="http://fillmurray.com/100/100" class="img--border">
-// </div>
+/// Border images
+/// @description Adds a border to an image.
+/// @example[html]
+///  <img src="http://fillmurray.com/100/100" class="img--border">
 
 %img--border,
 .img--border {
   border: 1px solid map-fetch($color, ui base);
 }
 
-// ## Image placement
-// Floats images, don't use on Flexbox children.
-
-//[c]
-//     <img src="image.png" class="img--right">
-//[/c]
+/// Image placement
+/// @description Float images or center them using `margin: auto`.
+/// @example[html]
+///   <img src="http://fillmurray.com/100/100" class="img--right">
 
 %img--right,
 .img--right {

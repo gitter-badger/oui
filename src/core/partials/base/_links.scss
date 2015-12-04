@@ -1,16 +1,11 @@
-// # Links
-
-// Links will use the `map-fetch($color, link base)`. You can also apply a `.link` class to an element.
-
-// ## HTML Examples
-
-// <div class="example html">
-//     Text can have <span class="link">link color</span> when not a HTML anchor.
-// </div>
-
-// <div class="example html">
-//     Links can be <a href="#" class="link--disabled">disabled</a> if need be.
-// </div>
+////
+/// Links
+/// @group Base
+/// @example[html]
+///   Text can have <span class="link">link color</span> when not a HTML anchor.
+/// @example[html]
+///   Links can be <a href="#" class="link--disabled">disabled</a> if need be.
+////
 
 a,
 %link,
