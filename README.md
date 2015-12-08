@@ -1,5 +1,7 @@
 # OUI Component Library
 
+[![Join the chat at https://gitter.im/optimizely/oui](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/optimizely/oui?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This document contains two sets of instructions:
 
 1. Including OUI in your project
